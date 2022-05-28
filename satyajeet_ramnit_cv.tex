@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/satyajeetramnit}{\Huge Satyajeet Ramnit}} &  \href{https://github.com/satyajeetramnit}{github.com/satyajeetramnit}\\
+  \textbf{Purnea, Bihar} & \href{https://www.linkedin.com/in/satyajeet-ramnit-2708/}{linkedin.com/in/satyajeetramnit/} \\
+  Ph. : +91 8210386150 & Email : \href{mailto:satyajeetramnit2708@gmail.com}{satyajeetramnit2708@gmail.com} \\
+\end{tabular*}
+
+% \begin{center}
+% 	{\Huge \scshape Satyajeet Ramnit} \\ \vspace{1pt}
+% 	Purnea, Bihar \\ \vspace{1pt}
+% 	\small \raisebox{-0.2\height}\faPhone\ Ph No.: +91 8210386150 ~ \href{x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{satyajeetramnit2708@gmail.com}} ~
+% 	\href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/satyajeet-ramnit-2708/}}
+% 	\vspace{-8pt}
+% \end{center}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://kiit.ac.in/}{Kalinga Institute of Industrial Technology}}{Bhubaneshwar, India}
+      {BTech in Information Technology;  \href{}{CGPA: 8.88}}{Jul. 2019 -- Jul. 2023}
+    \resumeSubheading
+      {\href{https://ipspurnea.com/}{Indian Public School}}{Purnea, Bihar}
+      {HSC/Intermediate;  \href{}{Percentage: 65.6}}{Apr. 2017 -- Mar. 2018}
+     \resumeSubheading
+      {\href{https://www.brightcareerschoolpurnea.com/}{Bright Career School}}{Purnea, Bihar}
+      {SSC/Matriculation;  \href{}{CGPA: 10}}{Apr. 2015 -- Mar. 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Coursework}{: Data Structure and Algorithms, Object Oriented Programming, Problem Solving, DataBase Management System, Operating System.} \\
+ 	\textbf{Languages}{: C/C++, Python, Java, HTML/CSS, JavaScript, SQL, Flutter.} \\
+ 		\textbf{Operating System}{: Windows, Linux}\\
+%  	\textbf{Source Control}{: Git }\\
+ 		\textbf{Tools}{: Git, Visual Studio Code, IntelliJ IDEA, Figma, Adobe XD, Jupiter Notebook}\\
+%  	\textbf{Technologies/Frameworks/Libraries}{: Node.js,ExpressJS, ReactJS.} \\
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {EPIKInDiFi}{Bhubaneswar, India}
+      {Intern Trainee}{Jan. 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Flutter, JavaScript, Python, EDA, Linux}
+          {Were among the tools and tech. I worked on out of which few were learnt from scratch by building different basic projects through it.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+      
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+      
+%
+
+% --------Organisations------------
+\section{Organisations}
+\resumeSubHeadingListStart
+  \resumeSubheading
+      {Next Gen UI}{India}
+      {UI/UX - FrontEnd Developer}{Dec. 2021 - Present}
+    %   \resumeItemListStart
+    %     \resumeItem{Flutter, JavaScript, Python, EDA, Linux}
+    %       {Were among the tools and tech. I worked on out of which few were learnt from scratch by building different basic projects through it.}
+    %   \resumeItemListEnd
+    \resumeSubheading
+      {GfG Chapter KIIT}{Bhubaneswar, India}
+      {UI/UX Designer}{Nov. 2020 - Jun. 2021}
+    \resumeSubheading
+      {National Service Scheme (NSS)}{Bhubaneswar, India}
+      {Volunteer}{Dec. 2020 - Aug 2021}
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\textbf{Code Dynamics} $|$ {\href{https://www.codedynamics.in/}{\bf View Project}}}
+      {Designed this project from scratch on \textbf{Figma}. The tech stacks used are \textbf{NextJS}, and \textbf{Tailwind CSS}. \textbf{Glassmorphism} & \textbf{neomorphic} are the base design features.}
+    \resumeSubItem{\textbf{Library Management System} $|$ {\href{https://satyajeetramnit.github.io/Library-Management-System/}{\bf View Project}}}
+      {Simple BookClub database that is maintaining a list of books, who has lent the book, and who has borrowed the book. We can also add new book entries, and borrow and return books.}
+    \resumeSubItem{\textbf{EDA - Agent Bonus (Life Insurance Company)} $|$ {\href{https://github.com/satyajeetramnit/Data-Science-Projects/tree/main/Agent-Bonus-Life-Insurance_Company}{\bf View Project}}}
+      {Dataset belongs to a life insurance company. The company wants to predict the bonus for its agents so that it may design appropriate engagement activities.}
+  \resumeSubHeadingListEnd
+
+
+%-----------Achievements-----------
+\section{Achievements}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+% 	\resumeItemListStart
+ \resumeSubHeadingListStart
+    	\resumeItem{Highest rating of \textbf{1758} at {\href{https://codechef.com/users/ramnit_code_27}{\bf Codechef}, and rated \textbf{3*}, also *242 and \textbf{*282} Global Rank in \href{https://www.codechef.com/AUG21C}{August Challenge 2021} and \href{https://www.codechef.com/START7C}{CodeChef Starters 7} respectively.}}
+    	
+    	\resumeItem{5* Badge in C, C++, DSA, 4* Badge In Java, 3* in SQL and Python on  {\href{https://www.hackerrank.com/satyajeetramnit1?hr_r=1}{\bf Hackerrank.}}}
+%   	\resumeItemListEnd
+ \resumeSubHeadingListEnd
+%  \end{itemize}
+ \vspace{-16pt}
+ %
+ 
+
+%-----------Certifications & Profile Links-----------
+\section{Certifications and Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\href{https://www.hackerrank.com/certificates/a64619ef6646}{\textbf{Hackerrank Certifications}{: Problem Solving, Java, SQL & Python.}} \\
+ 	    \href{https://www.udemy.com/certificate/UC-1adcc95f-c44b-49e7-8a39-75b9e84a3350/}{\textbf{Web Developer BootCamp}} \\
+ 	    \href{https://drive.google.com/file/d/1gAJfSQNtBdIQe9vkkxHTb0J2uGw_tLmb/view}{\textbf{KIIT International e-MUN}{: Officer (Design Dept.)}} \\
+ 	    \  \ \\
+ 	    \textbf{Profile Links :}{ $|$ \href{https://leetcode.com/satyajeetramnit2708/}{{Leetcode}} $|$ \href{https://www.hackerrank.com/satyajeetramnit1?hr_r=1}{{Hackerrank}} $|$ \href{https://www.codechef.com/users/ramnit_code_27}{{Codechef}} $|$ \href{https://auth.geeksforgeeks.org/user/satyajeetramnit27/practice/}{{GeeksForGeeks}} $|$} \\
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
