@@ -16,4 +16,4 @@ Using [Overleaf](https://www.overleaf.com/).
 
 ## Preview
 
-![Resume Screenshot](/cv_preview.png)
+![Resume Screenshot](/CV_Satyajeet_Latest.png)
